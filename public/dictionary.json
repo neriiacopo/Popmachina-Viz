@@ -1,0 +1,13 @@
+{
+    "bands": [
+        "organic",
+        "paper",
+        "textile",
+        "plastic",
+        "glass",
+        "metal",
+        "ewaste",
+        "wood",
+        "mix"
+    ]
+}

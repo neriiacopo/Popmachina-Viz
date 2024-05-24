@@ -1,0 +1,32 @@
+{
+    "cities": [
+        {
+            "name": "Istanbul",
+            "raster": "waste_tonnes_noHouseholds_Istanbul.tif"
+        },
+        {
+            "name": "Kaunas",
+            "raster": "waste_tonnes_noHouseholds_Kaunas.tif"
+        },
+        {
+            "name": "Leuven",
+            "raster": "waste_tonnes_noHouseholds_Leuven.tif"
+        },
+        {
+            "name": "Piraeus",
+            "raster": "waste_tonnes_noHouseholds_Piraeus.tif"
+        },
+        {
+            "name": "Santander",
+            "raster": "waste_tonnes_noHouseholds_Santander.tif"
+        },
+        {
+            "name": "Thessaloniki",
+            "raster": "waste_tonnes_noHouseholds_Thessaloniki.tif"
+        },
+        {
+            "name": "Venlo",
+            "raster": "waste_tonnes_noHouseholds_Venlo.tif"
+        }
+    ]
+}
