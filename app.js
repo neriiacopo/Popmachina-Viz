@@ -6,7 +6,7 @@ let imageOverlays = {};
 document.addEventListener("DOMContentLoaded", function () {
     map = L.map("map", {
         zoomControl: false,
-        attributionControl: true,
+        attributionControl: false,
         dragging: true,
         touchZoom: false,
         scrollWheelZoom: false,
@@ -27,7 +27,14 @@ document.addEventListener("DOMContentLoaded", function () {
             maxZoom: 19,
         }
     );
+
     map.addLayer(CartoDB_DarkMatterNoLabels);
+
+    L.control
+        .attribution({
+            position: "topright",
+        })
+        .addTo(map);
 });
 
 // Change city
